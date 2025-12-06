@@ -1,5 +1,5 @@
 
-# AA — Systolic Array Architecture with **CC SEED** and **IOL**
+# AA — Systolic Array Architecture
 
 > **Tagline:** Program *systolic arrays* with **user‑defined instructions** using the **Code Constructor (CC) SEED**, executed through **In‑to‑Out Logic (IOL)** pipelines for **parallel, multi‑language threads**.
 
