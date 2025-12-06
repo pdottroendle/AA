@@ -1,0 +1,44 @@
+{
+  "name": "DOT2",
+  "version": "0.1",
+  "uuid": "11111111-1111-1111-1111-111111111111",
+  "alias": "dot",
+  "shape": "DOT2",
+  "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "u16"
+  ],
+  "semantics": "y = a*b + c*d",
+  "latency_cycles": 3,
+  "throughput": "1/clk",
+  "pipeline_depth": 3,
+  "hazards": [
+    "RAW"
+  ],
+  "placement": {
+    "cells": [
+      0,
+      1
+    ],
+    "stages": [
+      0,
+      1,
+      2
+    ]
+  },
+  "iol": {
+    "ingress": "vector4",
+    "egress": "scalar"
+  },
+  "transport": {
+    "ingress_bytes": 8,
+    "egress_bytes": 2,
+    "burst": 1
+  },
+  "constraints": {
+    "clock": ">=400MHz",
+    "voltage": "typ"
+  }
+}

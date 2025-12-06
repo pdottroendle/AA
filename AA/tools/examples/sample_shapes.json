@@ -1,0 +1,18 @@
+{
+  "Object": {
+    "Alias": {
+      "Shapes": [
+        {
+          "alias": "add",
+          "shape": "SUM2",
+          "operands": 2
+        },
+        {
+          "alias": "mul",
+          "shape": "MUL2",
+          "operands": 2
+        }
+      ]
+    }
+  }
+}

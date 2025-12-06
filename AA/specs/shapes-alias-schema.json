@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Shapes/Alias Schema",
+  "type": "object",
+  "properties": {
+    "Object": {
+      "type": "object",
+      "properties": {
+        "Alias": {
+          "type": "object",
+          "properties": {
+            "Shapes": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "alias": {
+                    "type": "string"
+                  },
+                  "shape": {
+                    "type": "string"
+                  },
+                  "operands": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "alias",
+                  "shape",
+                  "operands"
+                ]
+              }
+            }
+          },
+          "required": [
+            "Shapes"
+          ]
+        }
+      },
+      "required": [
+        "Alias"
+      ]
+    }
+  },
+  "required": [
+    "Object"
+  ]
+}

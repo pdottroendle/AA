@@ -1,0 +1,28 @@
+{
+  "program": [
+    {
+      "alias": "add",
+      "thread": 0,
+      "operands": [
+        1,
+        2
+      ]
+    },
+    {
+      "alias": "mul",
+      "thread": 1,
+      "operands": [
+        3,
+        4
+      ]
+    },
+    {
+      "shape": "SUB2",
+      "thread": 0,
+      "operands": [
+        5,
+        2
+      ]
+    }
+  ]
+}

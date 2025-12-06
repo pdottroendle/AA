@@ -1,0 +1,18 @@
+{
+  "name": "aa",
+  "version": "0.1.0",
+  "description": "AA: Systolic array architecture with CC SEED and IOL (JS tooling)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/js/run_tests.mjs",
+    "json-to-mc": "node tools/js/json_to_mc.mjs tools/examples/sample_program.pwpi.json -o build/sample.mc",
+    "mc-to-json": "node tools/js/mc_to_json.mjs build/sample.mc -o build/sample.roundtrip.json",
+    "asm-x86": "node tools/js/shims/asm_export.mjs build/sample.mc --target x86 -o build/sample.x86.asm",
+    "asm-arm": "node tools/js/shims/asm_export.mjs build/sample.mc --target arm -o build/sample.arm.asm",
+    "asm-ptx": "node tools/js/shims/asm_export.mjs build/sample.mc --target ptx -o build/sample.ptx.asm"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
