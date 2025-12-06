@@ -1,7 +1,7 @@
 
-# AA — Systolic Array Architecture (PwPI) with **CC SEED** and **IOL**
+# AA — Systolic Array Architecture with **CC SEED** and **IOL**
 
-> **Tagline:** Program *systolic arrays* with **user‑defined instructions** using the **Code Constructor SEED (CC SEED)**, executed through **In‑to‑Out Logic (IOL)** pipelines for **parallel, multi‑language threads**.
+> **Tagline:** Program *systolic arrays* with **user‑defined instructions** using the **Code Constructor (CC) SEED**, executed through **In‑to‑Out Logic (IOL)** pipelines for **parallel, multi‑language threads**.
 
 **AA** is an open architecture and tool suite that lets developers **program systolic arrays** to perform **user‑defined instructions**. This enables programs with **Programmable‑with‑Programmable‑Instruction (PwPI)** to run **in parallel**, where AA can execute multiple threads—even in **different languages**—concurrently on the array.
 
@@ -12,9 +12,9 @@
 ## Key Concepts
 
 - **Systolic Array**: Treat the array as a high‑throughput **logic black box** mapping **inputs → outputs** via **IOL (In‑to‑Out Logic)** pipelines.
-- **PwPI**: Programs define **custom instructions** that AA schedules over the array.
+- **PwPI (Program with Programmed Instructions)**: Programs define **custom instructions** that AA schedules over the array.
 - **CC (Code Constructor)**: A constructor/compiler that **seeds** array pipelines with new instructions (**CC SEED**) and generates runtime‑executable microcode.
-- **Transport Tier**: Memory/data movement (buffers, routing, backpressure) feeding/collecting data from the array.
+- **TT (Transport Tree)**: Memory/data movement (buffers, routing, backpressure) feeding/collecting data from the array.
 - **JSON ⇄ Microcode**: Declarative **Alias/Shapes** to array **microcode** and vice versa.
 
 ---
