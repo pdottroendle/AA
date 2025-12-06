@@ -1,5 +1,5 @@
 ## Current Pending Requirement List :
-- **CBP Requirement 2025/2026 : All work is now done for the public using an Apache 2.0 licence
+- CBP Requirement : All work is now done for the public using an Apache 2.0 licence 
 - BC Requirement : All additional work is done as part of the curriculum (Capstone or CPT Authorisation)
 - Part 1 Simulation JS CC - animation showing the SEED (logic injected into the systolic array in animation)
 - Part 2 a MX codes to machine code (commands)
